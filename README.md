@@ -29,7 +29,7 @@ You can access the API documentation with endpoint ```http://localhost:8000/docs
 
 ### Instalation Guide
 1. Clone the repository
-2. Go to the project directory
+2. Go to the project directory on the folder ```Technical-Mock-Test```
 3. Install the dependencies using ```npm install```
 4. Start the server using ```npm run dev```
 
