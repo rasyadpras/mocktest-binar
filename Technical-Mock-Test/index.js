@@ -27,4 +27,6 @@ app.use(express.urlencoded({extended: false}));
 app.use('/docs', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 app.use('/', router);
 
-app.listen(port, () => console.log(`Server running at http://localhost:${port}`));
+if (process.env.NODE_ENV  !== 'test') {
+    app.listen(port, () => console.log(`Server running at http://localhost:${port}`));
+};
