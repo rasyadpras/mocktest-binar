@@ -25,7 +25,7 @@ https://mocktest-binar-production.up.railway.app/
 ```
 
 ### Documentation
-You can access the API documentation with endpoint `` `http://localhost:8000/docs ```
+You can access the API documentation with endpoint ```http://localhost:8000/docs ```
 
 ### Instalation Guide
 1. Clone the repository
