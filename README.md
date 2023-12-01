@@ -20,12 +20,11 @@ Setelah itu, server akan memberikan response tersebut kepada user (client).
 ```
 
 ### Link Deploy Railway
-```
 https://mocktest-binar-production.up.railway.app/
-```
 
 ### API Documentation
-You can access the API documentation with endpoint ```http://localhost:8000/docs/```
+If you setting server with ```localhost```, you can access the API documentation with endpoint ```http://localhost:8000/docs/```
+Or you can access to this link : https://mocktest-binar-production.up.railway.app/docs/
 
 ### Instalation Guide
 1. Clone the repository
