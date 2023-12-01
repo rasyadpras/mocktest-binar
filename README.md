@@ -24,8 +24,8 @@ Setelah itu, server akan memberikan response tersebut kepada user (client).
 https://mocktest-binar-production.up.railway.app/
 ```
 
-### Documentation
-You can access the API documentation with endpoint ```http://localhost:8000/docs ```
+### API Documentation
+You can access the API documentation with endpoint ```http://localhost:8000/docs/```
 
 ### Instalation Guide
 1. Clone the repository
@@ -36,5 +36,5 @@ You can access the API documentation with endpoint ```http://localhost:8000/docs
 ### Environment Setting
 Create file ```.env``` in the directory and add the following environment variables to your ```.env``` file :
 - ```PORT=8000```
-- ``` DATABASE_URL="postgresql://{your_username}:{your_password}@localhost:5432/{your_database_name}?schema=public"``` :
+- ```DATABASE_URL="postgresql://{your_username}:{your_password}@localhost:5432/{your_database_name}?schema=public"``` :
 - ```SECRET_KEY=yoursecretkeynumber```
